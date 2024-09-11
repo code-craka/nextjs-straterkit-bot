@@ -12,12 +12,12 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
           <ul>
             <li>
               <Link href="/">
-                <a>Home</a>
+                Home
               </Link>
             </li>
             <li>
               <Link href="/about">
-                <a>About</a>
+                About
               </Link>
             </li>
           </ul>
@@ -25,5 +25,5 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
         <Component {...pageProps} />
       </ModalProvider>
     </ToastProvider>
-  )
+  );
 }
